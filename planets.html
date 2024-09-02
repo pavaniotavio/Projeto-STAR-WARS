@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/star-wars-logo-gold.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./assets/star-wars-logo-gold.png" alt="logo" class="logo-img"/>
+        </div>
+
+            <a href="./index.html">
+                <span class="page-text">Personagens</span>
+            </a>
+
+            <a href="./planets.html">
+                <span class="page-text">Planetas</span>
+            </a>
+
+            <a href="./ships.html">
+                <span class="page-text">Espaçonaves</span>
+            </a>
+
+            <a href="./species.html">
+                <span class="page-text">Espécies</span>
+            </a>
+
+            <a href="./vehicles.html">
+                <span class="page-text">Veículos</span>
+            </a>
+
+            <div class="social-media">
+
+                <a href="" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+        
+                <a href="" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+        
+                <a href="" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                
+            </div>
+
+        <div class="button-menu" id="button-menu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+    </header>
+
+    <div class="main-container">
+
+        <h2>Conheça todos os planetas de Star Wars em um só lugar!</h2>
+
+        <div class="main-content" id="main-content"></div>
+
+        <div class="modal" id="modal" onclick="hideModal()">
+            <div class="modal-content" id="modal-content">
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button id="back-button" disabled>Anterior</button>
+            <button id="next-button" disabled>Próxima</button>
+        </div>
+
+    </div>
+
+    <footer>
+        <p class="footer-logo">
+            <img src="./assets/star-wars-logo-gold.png" class="logo-img"/>
+        </p>
+        
+        <p class="copyright">Desenvolvido por &copy; Otávio Pavani</p>
+    </footer>
+
+    <script src="./planetsScript.js"></script>
+    <script src="https://kit.fontawesome.com/064ae46175.js" crossorigin="anonymous"></script>
+    <script src="./script-button.js"></script>
+</body>
+</html>
